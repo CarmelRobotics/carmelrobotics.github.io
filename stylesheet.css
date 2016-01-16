@@ -1,17 +1,59 @@
+#headwrapper {
+	width: 100%;
+	border: 2px solid black;
+	overflow: hidden;
+}
+
 #header {
 	text-align: right;
-	height: 200px;
-	width: 300px;
+	height: 150px;
+	width: 30%;
+	border: 1px solid green;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-right: 25px;
+	padding-left: 25px;
+	float: left;
 }
 
 #small {
 	text-align: right;
-	font-size: 14pt;
-	color: red;
-	}
+	font-size: 20pt;
+	color: grey;
+}
+
+#lesssmall {
+	text-align: right;
+	font-size: 30pt;
+	color: grey;
+}
 
 #title {
 	text-align: right;
-	font-size: 36pt;
-	color: grey;
+	font-size: 60pt;
+	color: red;
 }
+
+#menu {
+	float: right;
+	border: 1px solid red;
+	height: 210px;
+	width: 67%;
+
+
+
+
+}
+
+#bar {
+	border: 1px solid blue;
+	height: 70px;
+	width: 100%;
+}
+
+#headimage {
+	border: 1px solid magenta;
+	height: 140px;
+	width: 100%;
+}
+
