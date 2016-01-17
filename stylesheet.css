@@ -9,6 +9,9 @@ body {
 	margin: auto;
 	height: auto;
 	background-color: #FFFFFF;
+-webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.65);
+-moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.65);
+box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.65);
 }
 
 
@@ -76,6 +79,7 @@ body {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    font-family: Georgia;
 
 }
 
@@ -94,5 +98,26 @@ body {
 /* Change the link color to #111 (black) on hover */
 #menu li a:hover {
     background-color: #111;
+}
+
+
+#contentwrapper {
+	padding: 25px 25px 25px 25px;
+	}
+
+#picquote {
+	height: 300px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+#picture {
+	width: 600px;
+	float: left;
+}
+
+#quote {
+	width: 450px;
+	float: right;
 }
 
