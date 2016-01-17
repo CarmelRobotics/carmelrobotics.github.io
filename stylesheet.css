@@ -3,15 +3,24 @@ body {
 }
 
 
-#wrapper {
+#overlord {
 	width: 1050px;
 	/* border: 3px solid black; */
 	margin: auto;
 	height: auto;
+}
+
+#wrapper {
+	width: 1050px;
 	background-color: #FFFFFF;
--webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.65);
--moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.65);
-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.65);
+	-webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.65);
+	-moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.65);
+	box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.65);
+}
+
+#socialmedia {
+	text-align: right;
+	
 }
 
 
@@ -120,4 +129,7 @@ box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.65);
 	width: 450px;
 	float: right;
 }
+
+#footer {
+	text-align: right;
 
