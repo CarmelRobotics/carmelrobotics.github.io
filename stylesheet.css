@@ -192,12 +192,12 @@ body {
 	display: table;
 }
 
-#footer p {
+#quote p {
 	display: table-cell;
 	vertical-align: middle;
 }
 
-#footer span {
+#quote span {
 	font-size: 18pt;
 	font-weight: bold;
 }
@@ -222,7 +222,7 @@ body {
 }
 
 #footer a:hover {
-	color: #ffffff;
+	color: #ad0000;
 }
 
 #footer ul {
@@ -249,11 +249,11 @@ body {
 #sponsors {
 	float: left;
 	width: 330px;
-	line-height: 100px;
-	vertical-align: middle;
+	/*line-height: 100px;
+	vertical-align: middle;*/
 }
 
-#sponsors a {
+/*#sponsors a {
 	background-color: #ad0000;
 	border: 1px solid #750000;
 	color: white;
@@ -262,7 +262,7 @@ body {
 	border-radius: 5px;
 	height: 50px;
 
-}
+}*/
 
 #copyright {
 }
