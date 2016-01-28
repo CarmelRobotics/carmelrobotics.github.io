@@ -77,13 +77,19 @@ body {
 	overflow: hidden;
 }
 
-#header {
+#header a{
 	text-align: right;
 	height: 185px;
 	width: 365px;
+	background: url('../logo2.png');
 	/* border: 1px solid green; */
 	float: left;
 }
+
+#header a:hover {
+	background: url('../logo5.png');
+}
+
 
 #small {
 	text-align: right;
