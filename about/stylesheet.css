@@ -168,6 +168,25 @@ body {
 #contentwrapper {
 	padding: 25px 25px 25px 25px;
 	}
+	
+#contentwrapper ul {
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+#contentwrapper li {
+	padding-top: 20px;
+}
+	
+#contentwrapper a {
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#contentwrapper a:hover {
+	color: #ad0000;
+}
 
 #picquote {
 	height: 300px;
