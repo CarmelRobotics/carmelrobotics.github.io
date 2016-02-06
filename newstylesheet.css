@@ -28,6 +28,14 @@ body {
 	text-align: center;
 	padding: 0;
 	display: inline;
+	font-family: 'Dosis', sans-serif;
+	font-size: 50pt;
+	
+}
+#nav a {
+	text-decoration: none;
+	font-weight: Light;
+	color: #000000;
 }
 #nav li {
 	display: inline;
