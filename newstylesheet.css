@@ -1,7 +1,13 @@
+body {
+	margin: 0;
+	text-align: center;
+}
+
 #page1 {
 	height: 100%;
 	width: 100%;
 	background-color: #ff0000;
+	text-align: center;
 }
 #page2 {
 	height: 100%;
@@ -12,4 +18,18 @@
 	height: 100%;
 	width: 100%;
 	background-color: #0000ff;
+}
+#nav {
+	text-align: center;
+}
+#nav ul {
+	list-style-type: none;
+	overflow: hidden;
+	text-align: center;
+	padding: 0;
+	display: inline;
+}
+#nav li {
+
+	display: inline;
 }
