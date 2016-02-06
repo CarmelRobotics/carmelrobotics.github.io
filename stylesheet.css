@@ -46,7 +46,6 @@ body {
 
 #media ul {
 	list-style-type: none;
-
 	overflow: hidden;
 }
 
@@ -137,7 +136,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #AD0000;
+    background-color: #000000;
     font-family: 'Roboto', sans-serif;
     font-size: 12pt;
     border-left: 1px solid #750000;
