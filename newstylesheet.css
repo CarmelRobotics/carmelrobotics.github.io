@@ -34,8 +34,16 @@ body {
 }
 #nav a {
 	text-decoration: none;
-	font-weight: 300;
+	font-weight: 200;
 	color: #d6d6d6;
+	padding-bottom: 20px;
+}
+#nav a:hover {
+	border-bottom: 2px solid #d6d6d6;
+	
+}
+#nav a:active {
+	border-bottom: 2px solid #d6d6d6;
 }
 #nav li {
 	display: inline;
