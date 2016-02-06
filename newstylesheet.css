@@ -40,7 +40,6 @@ body {
 #nav li {
 	display: inline;
 }
-#zeppelin img {
-	height: 100px;
-	width: 400px;
+#zeppelin {
+	padding: 50px;
 }
