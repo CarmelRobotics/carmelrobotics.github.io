@@ -6,7 +6,7 @@ body {
 #page1 {
 	height: 100%;
 	width: 100%;
-	background-color: #ff0000;
+	background-color: #666666;
 	text-align: center;
 }
 #page2 {
@@ -30,6 +30,9 @@ body {
 	display: inline;
 }
 #nav li {
-
 	display: inline;
+}
+#zeppelin img {
+	height: 100px;
+	width: 400px;
 }
