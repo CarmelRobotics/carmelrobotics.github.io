@@ -29,16 +29,17 @@ body {
 	padding: 0;
 	display: inline;
 	font-family: 'Dosis', sans-serif;
-	font-size: 50pt;
+	font-size: 30pt;
 	
 }
 #nav a {
 	text-decoration: none;
-	font-weight: Light;
-	color: #000000;
+	font-weight: 300;
+	color: #d6d6d6;
 }
 #nav li {
 	display: inline;
+	padding: 20px;
 }
 #zeppelin {
 	padding: 50px;
