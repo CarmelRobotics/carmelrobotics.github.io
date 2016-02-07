@@ -1,23 +1,22 @@
 body {
 	margin: 0;
 	text-align: center;
+	overflow-x: hidden;
 }
 
 #page1 {
 	height: 100%;
 	width: 100%;
-	background-color: #666666;
+	background-color: #d6d6d6;
 	text-align: center;
+	margin: 0px;
+	background-image: url("http://www.graphic-design.com/Photoshop/tutorials/rusty_text/steelbackground3.jpg");
+	
 }
 #page2 {
-	height: 100%;
 	width: 100%;
-	background-color: #00ff00;
-}
-#page3 {
-	height: 100%;
-	width: 100%;
-	background-color: #0000ff;
+	background-color: #B9B8BA;
+	margin: 0px;
 }
 #nav {
 	text-align: center;
@@ -36,24 +35,40 @@ body {
 	text-decoration: none;
 	font-weight: 200;
 	color: #d6d6d6;
-	padding-bottom: 20px;
+	padding-bottom: 30px;
+	position: relative;
 }
-#nav a:hover {
-	border-bottom: 2px solid #d6d6d6;
+#nav a:hover:before {
+	content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    bottom: 0;
+    left: 25%;
+    border-bottom: 2px solid #d6d6d6;
 	
 }
 #nav a:active {
-	border-bottom: 2px solid #d6d6d6;
+	content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    bottom: 0;
+    left: 25%;
+    border-bottom: 2px solid #d6d6d6;
 }
 #nav li {
 	display: inline;
-	padding: 20px;
+	padding: 25px;
 }
 
 #media img{
-	height: 100px;
-	width: 100px;
+	height: 110px;
+	width: 110px;
 	
+}
+#scrollDown img {
+	height: 30px;
 }
 
 @-webkit-keyframes spinnerRotate
@@ -81,6 +96,7 @@ body {
 #media li{
 
     display: inline;
+	padding: 3px;
 }
 
 #media li a:hover {
@@ -100,4 +116,51 @@ body {
 
 #zeppelin {
 	padding: 50px;
+}
+#center {
+	width: 100%;
+	height: 48%;
+}
+#page2 h1  {
+	padding-top: 3%;
+	padding-bottom: 3%;
+	font-size: 40pt;
+	font-family: 'Dosis', sans-serif;
+	font-weight: 300;
+}
+#paragraph {
+	width: 60%;
+	margin: auto;
+	
+}
+#paragraph p{
+	text-align: justify;
+	line-height: 170%;
+	font-family: 'Open Sans', sans-serif;
+}
+#image1{
+	padding-top: 5%;
+	padding-bottom: 5%;
+    padding-left: 20%;
+	padding-right: 20%;
+}
+#image1 img {
+	height: 380px;
+}
+#topfooter{
+	width: 100%;
+	background-color: #3C3B3C;
+	height: 27%;
+}
+#bottomfooter{
+	width: 100%;
+	background-color: #1E1E1F;
+	height: 27%;
+}
+#bottomfooter p {
+	padding-top: 2%;
+	padding-bottom: 2%;
+	text-align: center;
+	color: #d6d6d6;
+}
 }
