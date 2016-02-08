@@ -11,6 +11,7 @@ body {
 	text-align: center;
 	margin: 0px;
 	background-image: url("http://www.graphic-design.com/Photoshop/tutorials/rusty_text/steelbackground3.jpg");
+
 	
 }
 #page2 {
@@ -147,7 +148,7 @@ body {
 	
 }
 #paragraph p{
-	/*text-align: justify;*/
+	text-align: justify;
 	line-height: 170%;
 	font-family: 'Open Sans', sans-serif;
 	margin: 0px;
