@@ -116,7 +116,7 @@ body {
 	list-style-type: none;
 	overflow: hidden;
 	padding: 0px;
-	margin: 0px;
+	margin: 0px; 
 }
 
 #media li{
@@ -147,7 +147,7 @@ body {
 }
 #center {
 	width: 100%;
-	height: 45%;
+	height: 40%;
 	margin: 0px;
 }
 #page2 h1  {
@@ -186,10 +186,43 @@ body {
 	height: 27%;
 	margin: 0px;
 }
+
+#topfooter ul {
+	list-style-type: none;
+	overflow: hidden;
+	padding: 0px;
+}
+
+#toplinks {
+	float: left;
+	width: 33.33%;
+	height: 100%;
+	/*background-color: white;*/
+	
+}
+
+#toplinks div:hover {
+	background-color: #3c3b3c;
+}
+
+#topfooter a {
+	
+	text-decoration: none;
+	color: black;
+}
+
+#topfooter a:hover{
+	background-color: #3c3b3c;
+	text-decoration: none;
+	color: white;
+}
+
+
 #bottomfooter{
 	width: 100%;
 	background-color: #1E1E1F;
 	/*change height if needed*/
+	height: 27%;
 	margin:0;
 }
 
@@ -212,7 +245,6 @@ body {
 }
 
 #media2 li{
-
     display: inline;
 	padding: 3px;
 	margin: 0px;
