@@ -10,7 +10,9 @@ body {
 	background-color: #d6d6d6;
 	text-align: center;
 	margin: 0px;
-	background-image: url("http://www.graphic-design.com/Photoshop/tutorials/rusty_text/steelbackground3.jpg");
+	background-image: url("background2.png");
+	background-size:100% 100%;
+	
 
 	
 }
@@ -75,10 +77,24 @@ body {
 	margin: 0px;
 	
 }
-#scrollDown img {
-	height: 30px;
-	margin: 0px;
+#scrollDown {
+	margin-top: 1.7%;
 }
+#scrollDown img {
+	height: 14px;
+	margin-bottom: 0px;
+	}
+#scrollDown .text {
+	color: #931702;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10pt;
+}
+#scrollDown .image,
+#scrollDown .text {transition: opacity 0.4s ease-in-out;}
+#scrollDown .text {top:0; left:0; opacity:0;}
+
+#scrollDown:hover .image {opacity:0;}
+#scrollDown:hover .text {opacity:1;}
 
 @-webkit-keyframes spinnerRotate
 {
@@ -131,7 +147,7 @@ body {
 }
 #center {
 	width: 100%;
-	height: 48%;
+	height: 45%;
 	margin: 0px;
 }
 #page2 h1  {
@@ -173,14 +189,41 @@ body {
 #bottomfooter{
 	width: 100%;
 	background-color: #1E1E1F;
-	height: 27%;
+	/*change height if needed*/
 	margin:0;
+}
+
+#tear img{
+	padding-top: 0.7%;
+	padding-bottom: 1.5%;
+	height: 80px;
+}
+#media2 img{
+	height: 50px;
+	width: 50px;
+	margin: 0px;
+	
+}
+#media2 ul {
+	list-style-type: none;
+	overflow: hidden;
+	padding: 0px;
+	margin: 0px;
+}
+
+#media2 li{
+
+    display: inline;
+	padding: 3px;
+	margin: 0px;
 }
 #bottomfooter p {
 	padding-top: 2%;
-	padding-bottom: 2%;
+	padding-bottom: 1%;
 	text-align: center;
 	color: #d6d6d6;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12pt;
 	margin: 0px;
 }
 }
