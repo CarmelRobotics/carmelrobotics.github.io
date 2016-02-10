@@ -186,28 +186,6 @@ body {
 	height: 27%;
 	margin: 0px;
 }
-
-#topfooter ul {
-	list-style-type: none;
-	display: inline;
-}
-
-#topfooter li {
-	width: 33.3%
-	background-color: #ffffff;
-	display: block;
-}
-
-#topfooter li a {
-	width: 33.3%
-	background-color: #ffffff;
-	display: block;
-}
-
-#topfooter li a:hover {
-	background-color: #3c3b3c;
-	
-}
 #bottomfooter{
 	width: 100%;
 	background-color: #1E1E1F;
