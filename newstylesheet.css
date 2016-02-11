@@ -12,6 +12,7 @@ body {
 	margin: 0px;
 	background-image: url("background2.png");
 	background-size:100% 100%;
+	overflow: hidden;
 	
 
 	
