@@ -20,6 +20,7 @@ body {
 	width: 100%;
 	background-color: #B9B8BA;
 	margin: 0px;
+	height: 100%;
 }
 #nav {
 	text-align: center;
@@ -79,6 +80,10 @@ body {
 }
 #scrollDown {
 	margin-top: 1.7%;
+	text-decoration: none;
+}
+#scrollDown a {
+	text-decoration: none;
 }
 #scrollDown img {
 	height: 14px;
@@ -87,8 +92,10 @@ body {
 #scrollDown .text {
 	color: #931702;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 10pt;
+	font-size: 10pt; 
+	text-decoration: none;
 }
+
 #scrollDown .image,
 #scrollDown .text {transition: opacity 0.4s ease-in-out;}
 #scrollDown .text {top:0; left:0; opacity:0;}
@@ -185,6 +192,7 @@ body {
 	background-color: #3C3B3C;
 	height: 27%;
 	margin: 0px;
+	overflow: hidden;
 }
 
 #topfooter ul {
@@ -195,27 +203,61 @@ body {
 
 #toplinks {
 	float: left;
-	width: 33.33%;
 	height: 100%;
+	width: 33.33%;
 	/*background-color: white;*/
-	
+	display: table;
 }
 
-#toplinks div:hover {
-	background-color: #3c3b3c;
-}
 
 #topfooter a {
-	
+	display: table-cell;
 	text-decoration: none;
-	color: black;
+	color: white;
+	height: 100%;
+	width: 100%;
+	font-family: 'Dosis', sans-serif;
+	font-size: 30pt;
+	vertical-align: middle; 
+	font-weight: 200;
+	position: relative;
+	
 }
 
 #topfooter a:hover{
-	background-color: #3c3b3c;
+	background-color: #2D2D2D;
 	text-decoration: none;
 	color: white;
 }
+
+#topfooter a:before {
+	content: "";
+    position: absolute;
+    width: 25%;
+    height: 1px;
+    bottom: 30%;
+    left: 37%;
+    border-bottom: 2px solid #d6d6d6;
+	margin: 0px;
+	
+}
+
+/*#topwlinks span {
+	width: auto;
+	height: 50%;
+	position: relative;
+}
+
+#topwlinks span:before {
+	content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    bottom: 0;
+    left: 25%;
+    border-bottom: 2px solid #d6d6d6;
+	margin: 0px;
+}*/
 
 
 #bottomfooter{
