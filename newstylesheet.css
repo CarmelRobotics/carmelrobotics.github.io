@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-	text-align: center;
+	text-align: center;  
 	overflow-x: hidden;
 }
 
@@ -56,16 +56,6 @@ body {
     border-bottom: 2px solid #d6d6d6;
 	margin: 0px;
 	
-}
-#nav a:active {
-	content: "";
-    position: absolute;
-    width: 50%;
-    height: 1px;
-    bottom: 0;
-    left: 25%;
-    border-bottom: 2px solid #d6d6d6;
-	margin: 0px;
 }
 #nav li {
 	display: inline;
@@ -188,10 +178,11 @@ body {
 	height: 380px;
 	margin: 0px;
 }
+/*3 footer buttons*/
 #topfooter{
 	width: 100%;
 	background-color: #3C3B3C;
-	height: 27%;
+	height: 32%;
 	margin: 0px;
 	overflow: hidden;
 }
@@ -218,10 +209,61 @@ body {
 	height: 100%;
 	width: 100%;
 	font-family: 'Dosis', sans-serif;
-	font-size: 30pt;
+	font-size: 21pt;
 	vertical-align: middle; 
 	font-weight: 200;
 	position: relative;
+	
+}
+/*
+#underliner p {
+border-bottom: 1px solid #d6d6d6;	
+}
+#underliner p:hover {
+	border-bottom: 2px solid #d6d6d6;
+	
+}*/
+#toplinks p {
+	-webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+	padding-bottom: 5%;
+	
+	font-weight: 300;
+    display: inline-block;
+    padding-bottom: 4.5%;
+    position: relative;
+    
+	
+}
+#toplinks p:before {
+	content: "";
+    position: absolute;
+    width: 30%;
+    height: 1px;
+    bottom: 0;
+    left: 35%;
+    border-bottom: 1.5px solid #d6d6d6;
+	
+}
+#toplinks p:hover {
+	
+-webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.3);
+	
+	content: "";
+    width: 60%;
 	
 }
 
@@ -232,13 +274,14 @@ body {
 }
 
 #topfooter a:before {
+	
+	
 	content: "";
     position: absolute;
-    width: 25%;
+    width: 8%;
     height: 1px;
     bottom: 30%;
-    left: 37%;
-    border-bottom: 2px solid #d6d6d6;
+    left: 46%;
 	margin: 0px;
 	
 }
