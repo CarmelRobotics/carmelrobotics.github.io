@@ -9,6 +9,28 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
 <script>
+$('.elem').mousemove(function() {
+    var rotationAngle = $(this).css('-webkit-transform');
+    //console.log(rotationAngle);
+    
+    // CALCULATION FROM http://css-tricks.com/get-value-of-css-rotation-through-javascript/
+    // Thank you Chris Coyier
+    var values = rotationAngle.split('(')[1].split(')')[0].split(',');
+    var a = values[0];
+    var b = values[1];
+    var c = values[2];
+    var d = values[3];
+    var angle = Math.round(Math.atan2(b, a) * (180/Math.PI));
+    g_CSS = "rotate("+angle+"deg)";
+    $(this).css('-webkit-transform', g_CSS); 
+}).mouseenter(function() {
+    if(typeof g_CSS == 'undefined') {
+        $(this).css('-webkit-transform', 'rotate(0deg)');
+    } else {
+        $(this).css('-webkit-transform', g_CSS);
+    }
+});
+
 $('.smooth').on('click', function() {
     $.smoothScroll({
         scrollElement: $('body'),
@@ -52,13 +74,16 @@ $(function() {
      </ul>
 </div>
 <div id="center">
+	<img src="https://cloud.githubusercontent.com/assets/6074292/13198238/cbe82efa-d7b8-11e5-9b45-e105d51e1f84.png">
 </div>
+<div class = "elem">
     <div id="media"><ul>
 	<li><a href="https://www.facebook.com/FRC-Team-2035-RoboRockinBots-191685760860634/" target="_blank" title="Facebook"><img src="jackscats/redIG.png"></a></li>
-	<li><a href="https://twitter.com/roborockinbots" target="_blank" title="Twitter"><img src="jackscats/redIG2.png"></a></li>
-	<li><a href="http://www.instagram.com/the.rockin.bots" target="_blank" title="Instagram"><img src="jackscats/redIG3.png"></a></li>
-	<li><a href="https://www.github.com/CarmelRobotics" target="_blank" title="GitHub"><img src="jackscats/redtwitter.png"></a></li>
+	<li><a href="https://twitter.com/roborockinbots" target="_blank" title="Twitter"><img src="jackscats/redtwitter.png"></a></li>
+	<li><a href="http://www.instagram.com/the.rockin.bots" target="_blank" title="Instagram"><img src="jackscats/redIG2.png"></a></li>
+	<li><a href="https://www.github.com/CarmelRobotics" target="_blank" title="GitHub"><img src="jackscats/redIG3.png"></a></li>
 	</ul>
+</div>
 </div>
 <div id="scrollDown"><a href="#page2">
     <div class ="text">SCROLL DOWN</div>
@@ -73,7 +98,7 @@ $(function() {
 	<p>We're FIRST Robotics team 2035, the Robo-Rockin' Bots, from Carmel, California! Our team began in 2007, and has been spreading enthusiasm for STEM throughout the Monterey Peninsula ever since. Every year, we participate in FIRST Robotics Competitions in both Silicon Valley and Sacramento, and our mission is to design innovative robots and promote STEM throughtout our community and others.</p>
 	</div>
 	<div id="image1">
-	<img src="https://cloud.githubusercontent.com/assets/6074292/13029444/6e26fcdc-d241-11e5-99d9-6cec6b85952b.png">
+	<img src="https://cloud.githubusercontent.com/assets/6074292/13198347/3d8196a8-d7bb-11e5-9f51-a50537eb3569.png">
 	</div>
 </div>
 	<div id="topfooter">
@@ -85,6 +110,7 @@ $(function() {
 	</div>
 	<div id="bottomfooter">
 	<p> Copyright 2016 FRC Team 2035 | All Rights Reserved</p>
+	<div class = "elem">
 	<div id="media2"><ul>
 	<li><a href="https://www.facebook.com/FRC-Team-2035-RoboRockinBots-191685760860634/" target="_blank" title="Facebook"><img src="jackscats/whiteFacebook.png"></a></li>
 	<li><a href="https://twitter.com/roborockinbots" target="_blank" title="Twitter"><img src="jackscats/whiteTwitter.png"></a></li>
@@ -92,7 +118,9 @@ $(function() {
 	<li><a href="https://www.github.com/CarmelRobotics" target="_blank" title="GitHub"><img src="jackscats/whiteGit.png"></a></li>
 	</ul>
 	</div>
-	<div id = "tear"><img src="jackscats/tear.png"></div>
+	</div>
+	<!--<div id = "tear"><img src="jackscats/tear.png"></div>-->
+	<img src="https://cloud.githubusercontent.com/assets/6074292/13198593/fb3d4b14-d7c1-11e5-81e8-b96bb64e621d.png" onmouseover="this.src='https://cloud.githubusercontent.com/assets/6074292/13198537/2e595f6c-d7c0-11e5-819b-985185e6d5a6.png';" onmouseout="this.src='https://cloud.githubusercontent.com/assets/6074292/13198593/fb3d4b14-d7c1-11e5-81e8-b96bb64e621d.png';" />
 </div>
 
 </body>
