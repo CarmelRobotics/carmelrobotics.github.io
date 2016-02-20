@@ -1,0 +1,8 @@
+<div id="sponsors"><h2>Our Sponsors</h2><ul>
+		<li><a href="http://www.carmelunified.org" target="_blank">Carmel Unified School District</a></li>
+		<li><a href="http://www.nps.edu" target="_blank"><img src="nps.png"></a>Naval Post Graduate School of Monterey</li>
+		<li><a href="http://www.mbari.org" target="_blank">Monterey Bay Aquarium Research Institute</a></li>
+        <li><a href="http://www.carmelunified.org/Page/18" target="_blank">FOCUS</a></li>
+        <li><a href="http://www.carmelhigh.org/page/2091" target="_blank">Padre Parents</a></li>
+        <li><a href="http://www.carmelvideo.net" target="_blank">Carmel Valley Video</a></li>
+	</ul></div>
