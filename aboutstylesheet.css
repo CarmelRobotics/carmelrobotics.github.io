@@ -375,11 +375,12 @@ border-bottom: 1px solid #d6d6d6;
     -o-transform:scale(1.2); /* Opera */
      transform:scale(1.2);
 }
-#sponsors p {
+#sponsors {
 	text-align: center;
-	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12pt;
+	font-weight: bold;
 }
-
 	
 
 #sponsors ul {
@@ -397,5 +398,9 @@ border-bottom: 1px solid #d6d6d6;
 	float: left;
 	/*border: 1px solid black;*/
 
+}
+#box {
+	padding-top: 50px;
+	overflow: hidden;
 }
 }
