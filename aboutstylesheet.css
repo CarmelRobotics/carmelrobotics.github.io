@@ -377,11 +377,16 @@ border-bottom: 1px solid #d6d6d6;
 }
 #sponsors {
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 12pt;
-	font-weight: bold;
+	font-family: 'Dosis', sans-serif;
+	text-transform: uppercase;
+	font-size: 20pt;
+	vertical-align: middle;
 }
-	
+#sponsors p {
+	text-align: center;
+vertical-align: middle;
+line-height: 300px;
+}	
 
 #sponsors ul {
 	display: inline;
@@ -392,6 +397,7 @@ border-bottom: 1px solid #d6d6d6;
 #sponsors li {
 	display: inline;
 	padding: 80px;
+	padding-bottom: 150px;
 	text-align: center;
 	width: 320px;
 	height:300px;
