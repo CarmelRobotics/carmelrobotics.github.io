@@ -397,7 +397,7 @@ line-height: 300px;
 #sponsors li {
 	display: inline;
 	padding: 80px;
-	padding-bottom: 200px;
+	padding-bottom: 180px;
 	text-align: center;
 	width: 320px;
 	height:300px;
@@ -406,7 +406,7 @@ line-height: 300px;
 
 }
 #box {
-	padding-bottom: 300px;
+	padding-bottom: 250px;
 	overflow: hidden;
 }
 }
