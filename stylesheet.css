@@ -2,6 +2,7 @@ body {
 	margin: 0;
 	text-align: center;  
 	overflow-x: hidden;
+    background-color: #1E1E1F;
 }
 
 #home {
@@ -304,6 +305,9 @@ border-bottom: 1px solid #d6d6d6;
 	padding-bottom: 1.5%;
 	height: 80px;
 }
+#tear {
+    padding-bottom: 1.5%;
+}
 
 #tear a:hover {
 	background url('mcfarlin.png');
@@ -340,4 +344,11 @@ border-bottom: 1px solid #d6d6d6;
 	height: 380px;
 	margin: 0px;
 }
+#tmtLogo img {
+	padding-bottom: .1%;
+    padding-top: .8%;
+	height: 50px;
+    margin: 0px;  
+}
+
 }
