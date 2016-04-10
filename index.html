@@ -24,7 +24,7 @@ $('.elem').mousemove(function() {
     var d = values[3];
     var angle = Math.round(Math.atan2(b, a) * (180/Math.PI));
     g_CSS = "rotate("+angle+"deg)";
-    $(this).css('-webkit-transform', g_CSS); 
+    $(this).css('-webkit-transform', g_CSS);
 }).mouseenter(function() {
     if(typeof g_CSS == 'undefined') {
         $(this).css('-webkit-transform', 'rotate(0deg)');
@@ -93,7 +93,7 @@ $(function() {
 </div>
 </div>
  
-<div id="page2">  
+<div id="page2">
   <a id="about" class="smooth"></a>
 	<h1>WE'RE THE ROCKIN' BOTS</h1>
 	<div id="paragraph">
@@ -103,6 +103,7 @@ $(function() {
 	<img src="https://cloud.githubusercontent.com/assets/6074292/13198347/3d8196a8-d7bb-11e5-9f51-a50537eb3569.png">
 	</div>
 </div>
+    <div id ="page3">
 	<div id="topfooter">
 		
 			<div id="toplinks"><a href="http://www.carmelhigh.org" target="_blank"><span id="topwlines"><p>CHS WEBSITE</p></span></a></div>
@@ -127,6 +128,7 @@ $(function() {
 	<!--<div id = "tear"><img src="jackscats/tear.png"></div>-->
 	<div id="tear"><img src='tear2.png' onmouseover="this.src='mcfarlin.png';" onmouseout="this.src='tear2.png';" /></div>
 </div>
+        </div>
 
 </body>
 </html>

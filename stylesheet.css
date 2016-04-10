@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-	text-align: center;  
+	text-align: center;
 	overflow-x: hidden;
     background-color: #1E1E1F;
 }
@@ -23,6 +23,10 @@ body {
 	background-color: #B9B8BA;
 	margin: 0px;
 	height: 100%;
+}
+#page3 {
+    width: 100%;
+    margin: 0px;
 }
 #nav {
 	text-align: center;
@@ -84,7 +88,7 @@ body {
 #scrollDown .text {
 	color: #931702;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 10pt; 
+	font-size: 10pt;
 	text-decoration: none;
 }
 
@@ -99,7 +103,7 @@ body {
 	list-style-type: none;
 	overflow: hidden;
 	padding: 0px;
-	margin: 0px; 
+	margin: 0px;
 }
 
 #media li{
@@ -111,11 +115,11 @@ body {
 
 #media li a:hover {
 }
-.elem img {  
+.elem img {
 }
 .elem img:hover {
-    -webkit-animation-name: rotate; 
-    -webkit-animation-duration: 3s; 
+    -webkit-animation-name: rotate;
+    -webkit-animation-duration: 3s;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
 }
@@ -160,7 +164,7 @@ body {
 	margin: 0px;
 }
 #image1 img {
-	height: 380px;
+	height: 45%;
 	margin: 0px;
 }
 /*3 footer buttons*/
@@ -195,14 +199,14 @@ body {
 	width: 100%;
 	font-family: 'Dosis', sans-serif;
 	font-size: 21pt;
-	vertical-align: middle; 
+	vertical-align: middle;
 	font-weight: 200;
 	position: relative;
 	
 }
 /*
 #underliner p {
-border-bottom: 1px solid #d6d6d6;	
+border-bottom: 1px solid #d6d6d6;
 }
 #underliner p:hover {
 	border-bottom: 2px solid #d6d6d6;
@@ -210,9 +214,9 @@ border-bottom: 1px solid #d6d6d6;
 }*/
 #toplinks p {
 	-webkit-transition: all 200ms ease-in;
-    -webkit-transform: scale(1); 
+    -webkit-transform: scale(1);
     -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1); 
+    -ms-transform: scale(1);
     -moz-transition: all 200ms ease-in;
     -moz-transform: scale(1);
     transition: all 200ms ease-in;
@@ -241,7 +245,7 @@ border-bottom: 1px solid #d6d6d6;
 -webkit-transition: all 200ms ease-in;
     -webkit-transform: scale(1.5);
     -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1.5);   
+    -ms-transform: scale(1.5);
     -moz-transition: all 200ms ease-in;
     -moz-transform: scale(1.5);
     transition: all 200ms ease-in;
@@ -348,7 +352,7 @@ border-bottom: 1px solid #d6d6d6;
 	padding-bottom: .1%;
     padding-top: .8%;
 	height: 50px;
-    margin: 0px;  
+    margin: 0px;
 }
 
 }

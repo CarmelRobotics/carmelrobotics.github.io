@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-	text-align: center;  
+	text-align: center;
 	overflow-x: hidden;
 	background-color: #1E1E1F;
 }
@@ -58,7 +58,7 @@ body {
 	list-style-type: none;
 	overflow: hidden;
 	padding: 0px;
-	margin: 0px; 
+	margin: 0px;
 }
 
 #media li{
@@ -127,13 +127,13 @@ h2 {
 width: 60%;
 	margin: auto;
 	padding-top: 2.5%;
-	padding-bottom: 1%;	
+	padding-bottom: 1%;
 }
 #sponsorpar p {
 text-align: justify;
 	line-height: 170%;
 	font-family: 'Open Sans', sans-serif;
-	margin: 0px;	
+	margin: 0px;
 }
 #paragraph2 {
 	width: 60%;
@@ -143,6 +143,18 @@ text-align: justify;
 }
 #paragraph2 p{
 	text-align: justify;
+	line-height: 170%;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0px;
+}
+#paragraph {
+	width: 60%;
+	margin: auto;
+	padding-bottom: 4%;
+	padding-top: 2%;
+}
+#paragraph p{
+	text-align: center;
 	line-height: 170%;
 	font-family: 'Open Sans', sans-serif;
 	margin: 0px;
@@ -212,14 +224,14 @@ text-align: justify;
 	width: 100%;
 	font-family: 'Dosis', sans-serif;
 	font-size: 21pt;
-	vertical-align: middle; 
+	vertical-align: middle;
 	font-weight: 200;
 	position: relative;
 	
 }
 /*
 #underliner p {
-border-bottom: 1px solid #d6d6d6;	
+border-bottom: 1px solid #d6d6d6;
 }
 #underliner p:hover {
 	border-bottom: 2px solid #d6d6d6;
@@ -227,9 +239,9 @@ border-bottom: 1px solid #d6d6d6;
 }*/
 #toplinks p {
 	-webkit-transition: all 200ms ease-in;
-    -webkit-transform: scale(1); 
+    -webkit-transform: scale(1);
     -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1); 
+    -ms-transform: scale(1);
     -moz-transition: all 200ms ease-in;
     -moz-transform: scale(1);
     transition: all 200ms ease-in;
@@ -258,7 +270,7 @@ border-bottom: 1px solid #d6d6d6;
 -webkit-transition: all 200ms ease-in;
     -webkit-transform: scale(1.5);
     -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1.5);   
+    -ms-transform: scale(1.5);
     -moz-transition: all 200ms ease-in;
     -moz-transform: scale(1.5);
     transition: all 200ms ease-in;
@@ -339,11 +351,11 @@ border-bottom: 1px solid #d6d6d6;
 	padding: 3px;
 	margin: 0px;
 }
-.elem img {  
+.elem img {
 }
 .elem img:hover {
-    -webkit-animation-name: rotate; 
-    -webkit-animation-duration: 3s; 
+    -webkit-animation-name: rotate;
+    -webkit-animation-duration: 3s;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
 }
@@ -361,52 +373,9 @@ border-bottom: 1px solid #d6d6d6;
 	font-size: 12pt;
 	margin: 0px;
 }
-#sponsors li img {
-	width: 500px;
-	margin-bottom: 15px;
-	-webkit-transition: all 1s ease; /* Safari and Chrome */
-    -moz-transition: all 1s ease; /* Firefox */
-    -ms-transition: all 1s ease; /* IE 9 */
-    -o-transition:  all 1s ease; /* Opera */
-    transition: all 1s ease;
-}
 
-#sponsors li a:hover img {
-    -webkit-transform:scale(1.2); /* Safari and Chrome */
-    -moz-transform:scale(1.2); /* Firefox */
-    -ms-transform:scale(1.2); /* IE 9 */
-    -o-transform:scale(1.2); /* Opera */
-     transform:scale(1.2);
-}
-#sponsors {
-	text-align: center;
-	font-family: 'Dosis', sans-serif;
-	text-transform: uppercase;
-	font-size: 20pt;
-	vertical-align: middle;
-}
-#sponsors p {
-	text-align: center;
-vertical-align: middle;
-line-height: 300px;
-}	
-
-#sponsors ul {
-	display: inline;
-	text-align: center;
-	margin-top: 50px;
-}
-
-#sponsors li {
-	display: inline;
-	padding: 80px;
-	padding-bottom: 180px;
-	text-align: center;
-	width: 320px;
-	height:300px;
-	float: left;
-	/*border: 1px solid black;*/
-
+#sponsors a img {
+    height: 5px;
 }
 #box {
 	padding-bottom: 250px;
@@ -417,6 +386,33 @@ line-height: 300px;
 	padding-bottom: .1%;
     padding-top: .8%;
 	height: 50px;
-    margin: 0px;  
+    margin: 0px;
 }
 
+table{
+    table-layout: fixed;
+    text-align: center;
+    width:70%;
+    margin-left:15%;
+    margin-right:15%;
+}
+table p {
+	font-family: 'Dosis', sans-serif;
+	font-size: 12pt;
+	text-transform: uppercase;
+}
+
+td{
+    display: table-cell;
+	width: 20%;
+	text-align: center;
+    overflow: hidden;
+    vertical-align: baseline;
+}
+
+table img{
+    width: 100%;
+}
+#sponsors {
+      padding-bottom: 10%;
+}
