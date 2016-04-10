@@ -374,6 +374,10 @@ border-bottom: 1px solid #d6d6d6;
 	margin: 0px;
 }
 
+<<<<<<< HEAD
+=======
+}
+>>>>>>> origin/master
 #sponsors a img {
     height: 5px;
 }
@@ -387,6 +391,20 @@ border-bottom: 1px solid #d6d6d6;
     padding-top: .8%;
 	height: 50px;
     margin: 0px;
+<<<<<<< HEAD
+}
+
+table{
+    table-layout: fixed;
+    text-align: center;
+    width:70%;
+    margin-left:15%;
+    margin-right:15%;
+}
+table p {
+	font-family: 'Dosis', sans-serif;
+	font-size: 12pt;
+	text-transform: uppercase;
 }
 
 table{
