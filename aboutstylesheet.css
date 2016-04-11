@@ -374,9 +374,9 @@ border-bottom: 1px solid #d6d6d6;
 	margin: 0px;
 }
 
-#sponsors a img {
+/*#sponsors a img {
     height: 5px;
-}
+}*/
 #box {
 	padding-bottom: 250px;
 	overflow: hidden;
@@ -411,7 +411,7 @@ table{
 }
 table p {
 	font-family: 'Dosis', sans-serif;
-	font-size: 12pt;
+	font-size: 15pt;
 	text-transform: uppercase;
 }
 
