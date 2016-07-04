@@ -98,6 +98,7 @@ body {
 }
  h1  {
 	padding-top: 4.5%;
+	padding-bottom: 3.0%;
 	font-size: 60pt;
 	font-family: 'Dosis', sans-serif;
 	font-weight: 200;
@@ -112,16 +113,17 @@ h2 {
 	margin: 0px;
 	
 }
-#paragraph1 {
+#main {
 	width: 60%;
 	margin: auto;
-	padding-bottom: 1%;
+	padding-bottom: 2%;
 }
-#paragraph1 p{
+#main p{
 	text-align: justify;
 	line-height: 170%;
 	font-family: 'Open Sans', sans-serif;
 	margin: 0px;
+	padding-bottom: 2%;
 }
 #sponsorpar {
 width: 60%;
@@ -135,63 +137,34 @@ text-align: justify;
 	font-family: 'Open Sans', sans-serif;
 	margin: 0px;
 }
-#paragraph2 {
-	width: 60%;
-	margin: auto;
-	padding-bottom: 4%;
-	padding-top: 2%;
+#main ul {
+	list-style-type: none;
+	font-family: 'Dosis', sans-serif;
+	text-align: left;
 }
-#paragraph2 p{
-	text-align: justify;
-	line-height: 170%;
-	font-family: 'Open Sans', sans-serif;
+#main a {
+	text-decoration: none;
+	color: #3C3B3C;
+}
+#main a:hover {
+	color: #2D2D2D;
+}
+#image{
+	padding-top: 3%;
+	padding-bottom: 5%;
+    padding-left: 20%;
+	padding-right: 20%;
 	margin: 0px;
-}
-#paragraph {
-	width: 60%;
-	margin: auto;
-	padding-bottom: 4%;
-	padding-top: 2%;
-}
-#paragraph p{
+	font-size: 9pt;
+	font-family: 'Open Sans', sans-serif;
 	text-align: center;
-	line-height: 170%;
-	font-family: 'Open Sans', sans-serif;
-	margin: 0px;
+	
 }
-#image1{
-	padding-top: 3%;
-	padding-bottom: 5%;
-    padding-left: 20%;
-	padding-right: 20%;
+#image img {
 	margin: 0px;
+	text-align: center;
 }
-#image1 img {
-	height: 390px;
-	margin: 0px;
-}
-#image2{
-	padding-top: 3%;
-	padding-bottom: 5%;
-    padding-left: 20%;
-	padding-right: 20%;
-	margin: 0px;
-}
-#image2 img {
-	height: 380px;
-	margin: 0px;
-}
-#image3{
-	padding-top: 3%;
-	padding-bottom: 5%;
-    padding-left: 20%;
-	padding-right: 20%;
-	margin: 0px;
-}
-#image3 img {
-	height: 380px;
-	margin: 0px;
-}
+
 /*3 footer buttons*/
 #topfooter{
 	width: 100%;
