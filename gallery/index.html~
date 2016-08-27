@@ -61,7 +61,7 @@ $(function() {
 <ul>
     <li><a href="#"><img src="2014.jpg"></a><br>The Bots</li>
     <li><a href="#"><img src="programming.jpg"></a><br>The Team</li>
-    <li><a href="competition"><img src="2015.jpg"></a><br>Competition!</li>
+    <li><a href="#"><img src="2015.jpg"></a><br>Competition!</li>
     <li><a href="#"><img src="stripper_button.jpg"></a><br>Our Famous Buttons</li>
 </div> <!--galleries-->
 </div> <!--words-->

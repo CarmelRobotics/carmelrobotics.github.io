@@ -1,0 +1,51 @@
+#galleries {
+    font-family: Dosis;
+	/*font-weight: bold;*/
+}
+
+#galleries li img {
+	border-radius: 300px;
+	/*border: 1px solid black;*/
+	-webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.53);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.53);
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.53);
+	margin-bottom: 15px;
+	-webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition:  all 1s ease; /* Opera */
+    transition: all 1s ease;
+	height: 200px;
+	width: 200px;
+}
+
+#galleries li a:hover img {
+    -webkit-transform:scale(1.2); /* Safari and Chrome */
+    -moz-transform:scale(1.2); /* Firefox */
+    -ms-transform:scale(1.2); /* IE 9 */
+    -o-transform:scale(1.2); /* Opera */
+     transform:scale(1.2);
+}
+
+	
+
+#galleries ul {
+	display: inline;
+	text-align: center;
+	margin-top: 50px;
+}
+
+#galleries li {
+	display: inline;
+	text-align: center;
+	width: 320px;
+	height:300px;
+	float: left;
+	/*border: 1px solid black;*/
+
+}
+
+#words {
+	padding-top: 50px;
+	overflow: hidden;
+}
