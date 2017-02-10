@@ -111,7 +111,16 @@ h2 {
 	font-family: 'Dosis', sans-serif;
 	font-weight: 200;
 	margin: 0px;
-	
+}
+h3 {
+	padding-top: 1%;
+	padding-bottom: 1%;
+	font-size: 24pt;
+	font-family: 'Dosis', sans-serif;
+	font-weight: 200;
+	margin: 0px;
+	width: 60%;
+	margin: auto;
 }
 #main {
 	margin: auto;
@@ -122,17 +131,17 @@ h2 {
 	text-align: justify;
 	line-height: 170%;
 	font-family: 'Open Sans', sans-serif;
-	margin: 0px;
+	margin: auto;
 	padding-bottom: 2%;
 }
 #sponsorpar {
-width: 60%;
+	width: 60%;
 	margin: auto;
 	padding-top: 2.5%;
 	padding-bottom: 1%;
 }
 #sponsorpar p {
-text-align: justify;
+	text-align: justify;
 	line-height: 170%;
 	font-family: 'Open Sans', sans-serif;
 	margin: 0px;
@@ -141,6 +150,8 @@ text-align: justify;
 	list-style-type: none;
 	font-family: 'Dosis', sans-serif;
 	text-align: left;
+	width: 60%;
+	margin: auto;
 }
 #main a {
 	text-decoration: none;
