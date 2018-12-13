@@ -5,14 +5,7 @@ body {
     background-color: #1E1E1F;
 }
 
-#home {
-	height: 100%;
-	width: 100%;
-	background-color: #d6d6d6;
-	background-image: url("background2.png");
-	background-size:100% 100%;
-	overflow: hidden;
-}
+
 #page2 {
 	width: 100%;
 	background-color: #B9B8BA;
