@@ -31,47 +31,17 @@ body {
 #nav {
 	text-align: center;
 	margin: 0px;
-	display:inline;
 }
 #nav ul {
 	list-style-type: none;
 	overflow: hidden;
 	text-align: center;
 	padding: 0;
-	display:inline;
+	display: inline;
 	font-family: 'Dosis', sans-serif;
 	font-size: 30pt;
 	margin: 0px;
 	
-}
-
-#nav ul li {
-	position:relative;
-	display:inline;
-	text-align:center;
-	list-style:none;
-}
-#nav ul li a {
-	position:relative;
-	display:inline;
-	color:#d6d6d6;
-	font-weight:200;
-	font-size:12pt;
-}
-#nav ul li ul {
-	display:none;
-	position:absolute;
-	background-color:#fff;
-}
-#nav ul li:hover ul{
-	display:block;
-}
-#nav ul li ul li a {
-	padding: 8px 16px;
-	display:block;
-}
-#nav ul li ul li a:hover {
-	background-color:white;
 }
 #nav a {
 	text-decoration: none;
@@ -91,6 +61,11 @@ body {
     border-bottom: 2px solid #d6d6d6;
 	margin: 0px;
 	
+}
+#nav li {
+	display: inline;
+	padding: 25px;
+	margin: 0px;
 }
 
 #media img{
@@ -379,4 +354,6 @@ border-bottom: 1px solid #d6d6d6;
     padding-top: .8%;
 	height: 50px;
     margin: 0px;
+}
+
 }
