@@ -47,11 +47,13 @@ body {
 
 #nav ul li {
 	position:relative;
+	display:inline;
 	text-align:center;
 	list-style:none;
 }
 #nav ul li a {
 	position:relative;
+	display:inline;
 	color:#d6d6d6;
 	font-weight:200;
 	font-size:12pt;
