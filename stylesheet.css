@@ -31,7 +31,7 @@ body {
 #nav {
 	text-align: center;
 	margin: 0px;
-	float:left;
+	display:inline;
 }
 #nav ul {
 	list-style-type: none;
