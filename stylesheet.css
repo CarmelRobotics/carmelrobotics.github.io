@@ -37,7 +37,7 @@ body {
 	overflow: hidden;
 	text-align: center;
 	padding: 0;
-	display: inline;
+	float:left;
 	font-family: 'Dosis', sans-serif;
 	font-size: 30pt;
 	margin: 0px;
