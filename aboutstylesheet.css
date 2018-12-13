@@ -14,10 +14,18 @@ body {
 	overflow: hidden;
 	
 }
+
+#nav li:hover ul{
+	display:block;
+}
+
 #nav {
 	text-align: center;
 	margin: 0px;
+	display:block;
+	position:relative;
 }
+
 #nav ul {
 	list-style-type: none;
 	overflow: hidden;
@@ -28,6 +36,23 @@ body {
 	font-size: 30pt;
 	margin: 0px;
 	
+}	
+
+#nav ul:after{
+	content:".";
+	display:block;
+	clear:both;
+	visibility:hidden;
+}
+#nav ul ul{
+	list-style-type: none;
+	overflow: hidden;
+	text-align: center;
+	padding: 0;
+	display: none;
+	font-family: 'Dosis', sans-serif;
+	font-size: 12pt;
+	margin: 0px;
 }
 #nav a {
 	text-decoration: none;
@@ -50,6 +75,7 @@ body {
 }
 #nav li {
 	display: inline;
+	float:center;
 	padding: 25px;
 	margin: 0px;
 }
