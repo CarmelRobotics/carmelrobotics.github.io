@@ -31,7 +31,6 @@ body {
 	overflow: hidden;
 	text-align: center;
 	padding: 0;
-	display: inline;
 	font-family: 'Dosis', sans-serif;
 	font-size: 30pt;
 	margin: 0px;
@@ -45,6 +44,7 @@ body {
 	visibility:hidden;
 }
 #nav ul ul{
+	position:absolute;
 	list-style-type: none;
 	overflow: hidden;
 	text-align: center;
