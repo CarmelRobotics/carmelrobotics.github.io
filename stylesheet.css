@@ -68,7 +68,6 @@ body {
 }
 #nav ul li ul li a {
 	padding: 8px 16px;
-	display:block;
 }
 #nav ul li ul li a:hover {
 	background-color:white;
