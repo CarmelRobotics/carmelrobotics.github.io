@@ -33,7 +33,7 @@ body {
 	margin: 0px;
 }
 #nav ul {
-	list-style-type: none;
+	list-style: none;
 	overflow: hidden;
 	text-align: center;
 	padding: 0;
