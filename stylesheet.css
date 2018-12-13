@@ -28,13 +28,13 @@ body {
 #nav {
 	text-align: center;
 	margin: 0px;
-	display:inline;
 }
 #nav ul {
 	list-style-type: none;
 	overflow: hidden;
 	padding: 0;
-	margin: 0px;	
+	margin: 0px;
+	display:inline;
 }
 #nav ul li {
 	position:relative;
@@ -43,10 +43,26 @@ body {
 	list-style:none;
 }
 #nav ul li a {
-	color:#d6d6d6;
 	font-family: 'Dosis', sans-serif;
-	font-weight:200;
 	font-size:30pt;
+	text-decoration: none;
+	font-weight: 200;
+	color: #d6d6d6;
+	padding-bottom: 30px;
+	position: relative;
+	margin: 0px;
+}
+
+#nav ul li a:hover:before {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    bottom: 0;
+    left: 25%;
+    border-bottom: 2px solid #d6d6d6;
+    margin: 0px;
+	
 }
 #nav ul li ul {
 	display:none;
@@ -64,25 +80,7 @@ body {
 #nav ul li ul li a:hover {
 	background-color:white;
 }
-#nav a {
-	text-decoration: none;
-	font-weight: 200;
-	color: #d6d6d6;
-	padding-bottom: 30px;
-	position: relative;
-	margin: 0px;
-}
-#nav a:hover:before {
-    content: "";
-    position: absolute;
-    width: 50%;
-    height: 1px;
-    bottom: 0;
-    left: 25%;
-    border-bottom: 2px solid #d6d6d6;
-    margin: 0px;
-	
-}
+
 
 #media img{
 	height: 110px;
