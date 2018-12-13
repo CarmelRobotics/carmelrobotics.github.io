@@ -43,6 +43,35 @@ body {
 	margin: 0px;
 	
 }
+
+#nav ul li {
+	position:relative;
+	text-align:center;
+	list-style:none;
+}
+#nav ul li a {
+	display:block;
+	font-size:12pt;
+}
+#nav ul li ul {
+	display:none;
+	position:absolute;
+	background-color:#fff;
+}
+#nav ul li:hover ul{
+	display:block;
+}
+#nav ul li ul li a {
+	padding: 8px 16px;
+}
+#nav ul li ul li a:hover {
+	background-color:white;
+}
+#nav li {
+	display: inline;
+	padding: 25px;
+	margin: 0px;
+}
 #nav a {
 	text-decoration: none;
 	font-weight: 200;
@@ -61,11 +90,6 @@ body {
     border-bottom: 2px solid #d6d6d6;
 	margin: 0px;
 	
-}
-#nav li {
-	display: inline;
-	padding: 25px;
-	margin: 0px;
 }
 
 #media img{

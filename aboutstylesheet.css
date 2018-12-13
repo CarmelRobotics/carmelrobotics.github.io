@@ -15,10 +15,6 @@ body {
 	
 }
 
-#nav li:hover ul{
-	display:block;
-}
-
 #nav {
 	text-align: center;
 	margin: 0px;
@@ -36,7 +32,12 @@ body {
 	margin: 0px;
 	
 }	
-
+#nav ul li{
+	display:inline-block;
+}
+#nav ul li:hover ul{
+	display:block;
+}
 #nav ul:after{
 	content:".";
 	display:block;
@@ -44,15 +45,8 @@ body {
 	visibility:hidden;
 }
 #nav ul ul{
+	display:none;
 	position:absolute;
-	list-style-type: none;
-	overflow: hidden;
-	text-align: center;
-	padding: 0;
-	display: none;
-	font-family: 'Dosis', sans-serif;
-	font-size: 12pt;
-	margin: 0px;
 }
 #nav a {
 	text-decoration: none;
