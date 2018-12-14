@@ -79,7 +79,7 @@ body {
 
 
 #nav ul li ul{
-	display:none;
+	display:block;
 }
 
 
