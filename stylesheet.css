@@ -18,6 +18,16 @@ body {
 
 	
 }
+#page1 {
+	width: 100%;
+	background-color: #B9B8BA;
+	text-align: center;
+	margin: 0px;
+	background-size:100% 100%;
+	overflow: hidden;
+	
+}
+
 #page2 {
 	width: 100%;
 	background-color: #B9B8BA;
