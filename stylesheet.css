@@ -86,7 +86,32 @@ body {
 	padding: 25px;
 	margin: 0px;
 }
-
+#main {
+	margin: auto;
+	padding-bottom: 2%;
+}
+#main p{
+	width: 60%;
+	text-align: justify;
+	line-height: 170%;
+	font-family: 'Open Sans', sans-serif;
+	margin: auto;
+	padding-bottom: 2%;
+}
+#main ul {
+	list-style-type: none;
+	font-family: 'Dosis', sans-serif;
+	text-align: left;
+	width: 60%;
+	margin: auto;
+}
+#main a {
+	text-decoration: none;
+	color: #3C3B3C;
+}
+#main a:hover {
+	color: #2D2D2D;
+}
 #media img{
 	height: 110px;
 	width: 110px;
