@@ -67,7 +67,7 @@ body {
 	visibility:hidden;
 }
 #nav ul ul{
-	display:none;
+	display:block;
 	position:absolute;
 }
 #nav a {
