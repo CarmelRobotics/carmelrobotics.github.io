@@ -45,12 +45,11 @@ body {
 	list-style-type: none;
 	overflow: hidden;
 	margin: 0px;
+}
+#nav ul li{
 	width:20%;
 	display:inline;
 	position:relative;
-}
-#nav ul li{
-	
 }
 #nav ul li:hover ul{
 	display:block;
