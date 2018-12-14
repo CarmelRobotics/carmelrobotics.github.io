@@ -45,7 +45,7 @@ body {
 	list-style-type: none;
 }
 #nav ul li{
-	display:inline;
+	display:inline-block;
 	position:relative;
 	overflow: visible;
 	padding:10px 5px 15px 20px;
