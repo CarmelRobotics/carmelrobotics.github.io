@@ -46,10 +46,11 @@ body {
 	overflow: hidden;
 	margin: 0px;
 	width:20%;
-}
-#nav ul li{
 	display:inline;
 	position:relative;
+}
+#nav ul li{
+	
 }
 #nav ul li:hover ul{
 	display:block;
