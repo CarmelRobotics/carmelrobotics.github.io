@@ -50,6 +50,7 @@ body {
 	display:inline;
 }
 #nav ul li{
+	display:none;
 }
 #nav ul li:hover ul{
 	display:block;
@@ -78,7 +79,7 @@ body {
 
 
 #nav ul li ul{
-
+	display:block;
 }
 
 
