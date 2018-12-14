@@ -50,7 +50,7 @@ body {
 	display:inline;
 }
 #nav ul li{
-	display:none;
+	display:inline;
 }
 #nav ul li:hover ul{
 	display:block;
@@ -90,6 +90,7 @@ body {
 	font-family: 'Dosis', sans-serif;
 	font-size: 12pt;
 	text-align: center;
+	border-bottom:0px;
 }
 
 #main p{
