@@ -50,7 +50,6 @@ body {
 	display:inline;
 }
 #nav ul li{
-	display:inline;
 }
 #nav ul li:hover ul{
 	display:block;
