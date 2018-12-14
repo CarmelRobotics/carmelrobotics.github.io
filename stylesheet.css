@@ -40,7 +40,6 @@ body {
 #nav {
 	text-align: center;
 	margin: 0px;
-	position:relative;
 }
 #nav ul{
 	list-style-type: none;
@@ -50,11 +49,11 @@ body {
 }
 #nav ul li{
 	display:inline;
-	position:relative;
+	position:absolute;
 }
 #nav ul li:hover ul{
 	display:block;
-	position:absolute;
+	position:relative;
 }
 #nav ul li a{
 	font-family: 'Dosis', sans-serif;
@@ -62,7 +61,7 @@ body {
 	text-align: center;
 	text-decoration: none;
 	font-weight: 200;
-	color:#fffff;
+	color:#FAFAFA;
 	padding-bottom: 30px;
 	position: relative;
 	margin: 0px;
