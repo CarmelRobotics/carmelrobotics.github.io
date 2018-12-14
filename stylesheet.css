@@ -52,7 +52,6 @@ body {
 }
 #nav ul li:hover ul{
 	display:block;
-	visibility:visible;
 	position:absolute;
 }
 #nav ul li a{
@@ -68,6 +67,7 @@ body {
 #nav ul li a:hover:before{
 	content: "";
     position: absolute;
+	color:white;
     width: 50%;
     height: 1px;
     bottom: 0;
