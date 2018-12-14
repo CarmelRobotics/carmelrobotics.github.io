@@ -55,7 +55,7 @@ body {
 	
 }	
 #nav ul li{
-	display:inline;
+	display:none;
 }
 #nav ul li:hover ul{
 	display:block;
@@ -67,7 +67,7 @@ body {
 	visibility:hidden;
 }
 #nav ul ul{
-	display:inline;
+	display:none;
 	position:absolute;
 }
 #nav a {
