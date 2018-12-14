@@ -49,6 +49,7 @@ body {
 #nav ul li{
 	display:inline;
 	position:relative;
+	width:200px;
 }
 #nav ul li:hover ul{
 	display:block;
@@ -64,7 +65,6 @@ body {
 	padding-bottom: 30px;
 	position: relative;
 	margin: 0px;
-	width:20%;
 }
 #nav ul li a:hover:before{
 	content: "";
