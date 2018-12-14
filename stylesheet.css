@@ -51,10 +51,10 @@ body {
 }
 #nav ul li{
 	display:inline;
-	position:absolute;
 }
 #nav ul li:hover ul{
 	display:block;
+	position:relative;
 }
 #nav ul li a{
 	font-family: 'Dosis', sans-serif;
@@ -62,7 +62,7 @@ body {
 	text-align: center;
 	text-decoration: none;
 	font-weight: 200;
-	color:#000000;
+	color:#fffff;
 	padding-bottom: 30px;
 	position: relative;
 	margin: 0px;
@@ -80,7 +80,7 @@ body {
 
 
 #nav ul li ul{
-	display:block;
+	display:none;
 }
 
 
