@@ -43,11 +43,11 @@ body {
 }
 #nav ul{
 	list-style-type: none;
-	overflow: hidden;
 }
 #nav ul li{
 	display:inline;
 	position:relative;
+	overflow: visible;
 	padding:10px 5px 15px 20px;
 }
 #nav ul li:hover ul{
