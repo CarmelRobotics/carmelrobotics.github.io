@@ -51,6 +51,7 @@ body {
 }
 #nav ul li{
 	display:inline;
+	position:absolute;
 }
 #nav ul li:hover ul{
 	display:block;
