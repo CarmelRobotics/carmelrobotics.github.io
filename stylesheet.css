@@ -49,11 +49,11 @@ body {
 }
 #nav ul li{
 	display:inline;
-	position:absolute;
+	position:relative;
 }
 #nav ul li:hover ul{
 	display:block;
-	position:relative;
+	position:absolute;
 }
 #nav ul li a{
 	font-family: 'Dosis', sans-serif;
