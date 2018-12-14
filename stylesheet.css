@@ -44,8 +44,6 @@ body {
 #nav ul{
 	list-style-type: none;
 	overflow: hidden;
-	margin: 0px;
-	width:200px;
 }
 #nav ul li{
 	display:inline;
@@ -53,6 +51,7 @@ body {
 }
 #nav ul li:hover ul{
 	display:block;
+	visibility:visible;
 	position:relative;
 }
 #nav ul li a{
@@ -79,7 +78,7 @@ body {
 
 
 #nav ul li ul{
-	display:none;
+	visibility:hidden;
 	position:relative;
 }
 
