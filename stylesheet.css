@@ -44,7 +44,7 @@ body {
 #nav ul{
 	list-style-type: none;
 	overflow: hidden;
-	padding: 0;
+	padding 0px 15px;
 	margin: 0px;
 }
 #nav ul li{
