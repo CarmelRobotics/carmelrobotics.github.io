@@ -90,6 +90,7 @@ body {
 	font-family: 'Dosis', sans-serif;
 	font-size: 12pt;
 	text-align: center;
+	border-bottom:none;
 }
 
 #main p{
