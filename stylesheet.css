@@ -85,7 +85,7 @@ body {
 
 
 #nav ul li ul li{
-
+	display:block;
 }
 #nav ul li ul li a{
 	font-family: 'Dosis', sans-serif;
