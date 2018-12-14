@@ -49,7 +49,7 @@ body {
 #nav ul li{
 	display:inline;
 	position:relative;
-	padding: 10px 30px
+	width:20%;
 }
 #nav ul li:hover ul{
 	display:block;
@@ -79,7 +79,7 @@ body {
 
 
 #nav ul li ul{
-	display:block;
+	display:none;
 	position:relative;
 }
 
