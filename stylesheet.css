@@ -14,7 +14,6 @@ body {
 	background-image: url("background2.png");
 	background-size:100% 100%;
 	overflow: hidden;
-	
 
 	
 }
@@ -102,7 +101,7 @@ body {
 }
 #main p{
 	width: 60%;
-	text-align: justify;
+	text-align: center;
 	line-height: 170%;
 	font-family: 'Open Sans', sans-serif;
 	margin: auto;
