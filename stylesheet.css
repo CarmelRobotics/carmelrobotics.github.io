@@ -47,7 +47,7 @@ body {
 }
 #nav ul li{
 	display:inline;
-	position:absolute;
+	position:relative;
 	padding:10px 5px 15px 20px;
 }
 #nav ul li:hover ul{
