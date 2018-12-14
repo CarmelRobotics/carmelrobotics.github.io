@@ -53,8 +53,8 @@ body {
 #nav ul li:hover ul{
 	position:absolute;
 	display:block;
-	top: 100px;
-	width:200px;
+	top: 80px;
+	width:150px;
 }
 #nav ul li a{
 	font-family: 'Dosis', sans-serif;
