@@ -31,22 +31,40 @@ body {
 #nav {
 	text-align: center;
 	margin: 0px;
+	display:block;
+	position:relative;
 }
+
 #nav ul {
 	list-style-type: none;
 	overflow: hidden;
 	text-align: center;
 	padding: 0;
-	display: inline;
 	font-family: 'Dosis', sans-serif;
 	font-size: 30pt;
 	margin: 0px;
 	
+}	
+#nav ul li{
+	display:inline-block;
+}
+#nav ul li:hover ul{
+	display:block;
+}
+#nav ul:after{
+	content:".";
+	display:block;
+	clear:both;
+	visibility:hidden;
+}
+#nav ul ul{
+	display:none;
+	position:absolute;
 }
 #nav a {
 	text-decoration: none;
 	font-weight: 200;
-	color: #d6d6d6;
+	color: #000000;
 	padding-bottom: 30px;
 	position: relative;
 	margin: 0px;
@@ -58,12 +76,13 @@ body {
     height: 1px;
     bottom: 0;
     left: 25%;
-    border-bottom: 2px solid #d6d6d6;
+    border-bottom: 1px solid #000000;
 	margin: 0px;
 	
 }
 #nav li {
 	display: inline;
+	float:center;
 	padding: 25px;
 	margin: 0px;
 }
