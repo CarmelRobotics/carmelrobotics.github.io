@@ -48,7 +48,7 @@ body {
 	width:200px;
 }
 #nav ul li{
-	display:block;
+	display:inline;
 	position:relative;
 }
 #nav ul li:hover ul{
