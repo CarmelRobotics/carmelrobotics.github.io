@@ -52,8 +52,9 @@ body {
 	padding:10px 5px 15px 20px;
 }
 #nav ul li:hover ul{
-	display:block;
 	position:absolute;
+	display:block;
+	visibility:visible;
 	top: 100%;
 }
 #nav ul li a{
