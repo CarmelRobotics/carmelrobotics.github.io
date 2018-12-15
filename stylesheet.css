@@ -24,6 +24,7 @@ body {
 	margin: 0px;
 	background-size:100% 100%;
 	overflow: hidden;
+	font-family: 'Dosis', sans-serif;
 	
 }
 
@@ -147,16 +148,16 @@ body {
 
 #scrollDown:hover .image {opacity:0;}
 #scrollDown:hover .text {opacity:1;}
-#sponsors {
+#sponsorpar {
       padding-bottom: 10%;
 }
-#sponsorpar {
+#sponsors {
 	width: 30%;
 	margin: auto;
 	padding-top: 2.5%;
 	padding-bottom: 1%;
 }
-#sponsorpar p {
+#sponsors p {
 	text-align: center;
 	line-height: 170%;
 	font-family: 'Open Sans', sans-serif;
