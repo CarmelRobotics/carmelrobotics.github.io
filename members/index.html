@@ -50,7 +50,7 @@ $(function() {
   $(function(){
     var includes = $('[kanban-include]');
     jQuery.each(includes, function(){
-      var file = '../my-personal-kanban/' + $(this).data('include') + '.html';
+      var file = '../my-personal-kanban/' + $(this).kanban('include') + '.html';
       $(this).load(file);
     });
   });
