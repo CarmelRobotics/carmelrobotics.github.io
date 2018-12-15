@@ -48,7 +48,7 @@ body {
 	display:inline-block;
 	position:relative;
 	overflow: visible;
-	padding:10px 5px 15px 20px;
+	padding:0px 20px;
 }
 #nav ul li:hover ul{
 	position:absolute;
