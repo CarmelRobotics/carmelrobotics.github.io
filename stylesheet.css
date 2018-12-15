@@ -156,12 +156,13 @@ body {
 	margin: auto;
 	padding-top: 2.5%;
 	padding-bottom: 1%;
-}
-#sponsors p {
 	text-align: center;
 	line-height: 170%;
 	font-family: 'Open Sans', sans-serif;
 	margin: 0px;
+}
+#sponsors table tr td a {
+	width:30%;
 }
 #media ul {
 	list-style-type: none;
