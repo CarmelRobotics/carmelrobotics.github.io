@@ -149,7 +149,7 @@ body {
 #scrollDown:hover .image {opacity:0;}
 #scrollDown:hover .text {opacity:1;}
 #sponsorpar {
-      padding-bottom: 10%;
+      padding-bottom:0px;
 }
 #sponsors {
 	margin: auto;
