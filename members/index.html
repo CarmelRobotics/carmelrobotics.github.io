@@ -46,6 +46,16 @@ $(function() {
   });
 </script>
 
+<script>
+  $(function(){
+    var includes = $('[kanban-include]');
+    jQuery.each(includes, function(){
+      var file = '../my-personal-kanban/' + $(this).data('include') + '.html';
+      $(this).load(file);
+    });
+  });
+</script>
+
 </head>
 
 
@@ -73,6 +83,7 @@ $(function() {
 	</p>
 	
 	</div>
+	<div kanban-include="index"></div>
 </div>
 	<div data-include="footer"></div>
 
