@@ -151,13 +151,13 @@ body {
       padding-bottom: 10%;
 }
 #sponsorpar {
-	width: 60%;
+	width: 30%;
 	margin: auto;
 	padding-top: 2.5%;
 	padding-bottom: 1%;
 }
 #sponsorpar p {
-	text-align: justify;
+	text-align: center;
 	line-height: 170%;
 	font-family: 'Open Sans', sans-serif;
 	margin: 0px;
