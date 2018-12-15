@@ -152,17 +152,15 @@ body {
       padding-bottom: 10%;
 }
 #sponsors {
-	width: 30%;
 	margin: auto;
-	padding-top: 2.5%;
-	padding-bottom: 1%;
 	text-align: center;
-	line-height: 170%;
 	font-family: 'Open Sans', sans-serif;
 	margin: 0px;
 }
 #sponsors img{
-	height:100px;
+	padding-top: 0.7%;
+	padding-bottom: 1.5%;
+	height: 80px;
 }
 #media ul {
 	list-style-type: none;
