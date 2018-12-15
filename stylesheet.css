@@ -161,8 +161,8 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	margin: 0px;
 }
-#sponsors table tr td a {
-	width:30%;
+#sponsors table tr td a{
+	height:100px;
 }
 #media ul {
 	list-style-type: none;
