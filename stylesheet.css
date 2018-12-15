@@ -147,7 +147,21 @@ body {
 
 #scrollDown:hover .image {opacity:0;}
 #scrollDown:hover .text {opacity:1;}
-
+#sponsors {
+      padding-bottom: 10%;
+}
+#sponsorpar {
+	width: 60%;
+	margin: auto;
+	padding-top: 2.5%;
+	padding-bottom: 1%;
+}
+#sponsorpar p {
+	text-align: justify;
+	line-height: 170%;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0px;
+}
 #media ul {
 	list-style-type: none;
 	overflow: hidden;
