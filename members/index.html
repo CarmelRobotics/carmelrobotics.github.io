@@ -46,15 +46,6 @@ $(function() {
   });
 </script>
 
-<script>
-  $(function(){
-    var includes = $('[kanban-include]');
-    jQuery.each(includes, function(){
-      var file = '../my-personal-kanban/' + $(this).kanban('include') + '.html';
-      $(this).load(file);
-    });
-  });
-</script>
 
 </head>
 
@@ -81,9 +72,11 @@ $(function() {
 	<br>
 	<a href="https://slack.com" target="_blank" title="">Slack</a>
 	</p>
-	
+	<p>
+	<iframe src="https://trello.com/b/pbSqs2Gi.html" frameBorder="0" width="80%" height="600px"></iframe>
+	</p>
 	</div>
-	<div kanban-include="index"></div>
+
 </div>
 	<div data-include="footer"></div>
 
