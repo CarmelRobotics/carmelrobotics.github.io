@@ -247,6 +247,16 @@ body {
 	height: 45%;
 	margin: 0px;
 }
+#image2{
+	padding-top: 5%;
+	padding-bottom: 5%;
+    padding-left: 20%;
+	padding-right: 20%;
+	margin: 0px;
+}
+#image2 img {
+	margin: 0px;
+}
 /*3 footer buttons*/
 #topfooter{
 	width: 100%;
