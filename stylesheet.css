@@ -135,8 +135,10 @@ body {
 #scrollDown {
 	margin-top: 1.7%;
 	text-decoration: none;
-	bottom:0;
+	bottom:5;
 	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
 }
 #scrollDown a {
 	text-decoration: none;
@@ -175,6 +177,12 @@ body {
 	padding-top: 0.7%;
 	padding-bottom: 1.5%;
 	height: 400px;
+}
+#media{
+	bottom:30;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
 }
 #media ul {
 	list-style-type: none;
