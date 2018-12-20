@@ -14,7 +14,7 @@ body {
 	background-image: url("background2.png");
 	background-size:100% 100%;
 	overflow: hidden;
-
+	position: relative;
 	
 }
 #page1 {
@@ -135,6 +135,8 @@ body {
 #scrollDown {
 	margin-top: 1.7%;
 	text-decoration: none;
+	bottom:0;
+	position: absolute;
 }
 #scrollDown a {
 	text-decoration: none;
