@@ -40,7 +40,8 @@ body {
 }
 #nav {
 	text-align: center;
-	margin: 0px; 
+	margin: 0px;
+	padding: 1px;
 }
 #nav ul{
 	list-style-type: none;
