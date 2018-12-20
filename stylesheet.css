@@ -50,8 +50,7 @@ body {
 	display:inline-block;
 	position:relative;
 	overflow: visible;
-	padding-top: 20px;
-	padding-bottom: 0px;
+	padding: 25px;
 }
 #nav ul li:hover ul{
 	position:absolute;
@@ -66,7 +65,7 @@ body {
 	text-decoration: none;
 	font-weight: 200;
 	color:white;
-	padding-bottom:0;
+	padding-bottom:1px;
 	margin: 0px;
 }
 #nav ul li a:hover:before{
