@@ -49,7 +49,7 @@ body {
 	display:inline-block;
 	position:relative;
 	overflow: visible;
-	padding: 25px;
+	padding: 25px 25px 1px;
 }
 #nav ul li:hover ul{
 	position:absolute;
