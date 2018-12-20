@@ -214,7 +214,8 @@ body {
 }
 
 #zeppelin {
-	padding: 50px;
+	padding-top: 50px;
+	padding-bottom: 0px;
 	margin: 0px;
 }
 #page2 h1  {
