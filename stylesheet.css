@@ -13,10 +13,41 @@ body {
 	margin: 0px;
 	background-image: url("background2.png");
 	background-size:100% 100%;
-	overflow: hidden;
-	position: relative;
+}
+
+#p1image img {
+	width:30%;
+	margin-top: 0;
+	padding-top:0px;
 	
 }
+
+table, td {
+  border: 4px solid #73706E;
+  width: 65%;
+  border-collapse: collapse;
+  padding: 8px;
+  font-family:"Arial";
+  font-size: 24px;
+}
+
+table.center {
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+th {
+  background-color: #04AA6D;
+  color: white;
+}
+
+td 	{
+	color: white;
+	text-align: center;
+	width:100px
+}
+
+
 #page1 {
 	width: 100%;
 	background-color: #B9B8BA;
@@ -268,9 +299,7 @@ body {
 	padding-right: 20%;
 	margin: 0px;
 }
-#image2 img {
-	margin: 0px;
-}
+
 /*3 footer buttons*/
 #topfooter{
 	width: 100%;
@@ -452,13 +481,13 @@ blockquote {
 }
 #center {
 	width: 100%;
-	height: 30%;
+	height: 100%;
 	margin-top: 0;
 	padding-top:0px;
 	overflow: hidden; 
 }
 #center img {
-	width:30%;
+	width:45%;
 	margin-top: 0;
 	padding-top:0px;
 	
