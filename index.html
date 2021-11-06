@@ -1,4 +1,4 @@
-<!-- HOME -->
+
 
 <html>
 <head>
@@ -9,109 +9,46 @@
 	
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
 
-<link href='https://fonts.googleapis.com/css?family=Dosis:400,300,200,700' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="httpe://code.jquery.com/jquery-3.1.1.js"></script>
-<script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
-<script>
-$('.elem').mousemove(function() {
-    var rotationAngle = $(this).css('-webkit-transform');
-    //console.log(rotationAngle);
-    
-    // CALCULATION FROM http://css-tricks.com/get-value-of-css-rotation-through-javascript/
-    // Thank you Chris Coyier
-    var values = rotationAngle.split('(')[1].split(')')[0].split(',');
-    var a = values[0];
-    var b = values[1];
-    var c = values[2];
-    var d = values[3];
-    var angle = Math.round(Math.atan2(b, a) * (180/Math.PI));
-    g_CSS = "rotate("+angle+"deg)";
-    $(this).css('-webkit-transform', g_CSS);
-}).mouseenter(function() {
-    if(typeof g_CSS == 'undefined') {
-        $(this).css('-webkit-transform', 'rotate(0deg)');
-    } else {
-        $(this).css('-webkit-transform', g_CSS);
-    }
-});
-
-$('.smooth').on('click', function() {
-    $.smoothScroll({
-        scrollElement: $('body'),
-        scrollTarget: '#' + this.id
-    });
-    
-    return false;
-});
-$(function() {
-  $('a[href*="#"]:not([href="#"])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    } 
-  });
-});
-</script>
-
-<script>
-  $(function(){
-    var includes = $('[data-include]');
-    jQuery.each(includes, function(){
-      var file = '../views/' + $(this).data('include') + '.html';
-      $(this).load(file);
-    });
-  });
-</script>
 
 </head>
 
 <body>
 
 <div id="home">
-  <a id="about" class="smooth"></a>
-  <div data-include="header"></div>
-<div id="center">
-	<img src="https://cloud.githubusercontent.com/assets/6074292/13198238/cbe82efa-d7b8-11e5-9b45-e105d51e1f84.png">
-</div>
-<br><br>
-	<div class = "elem">
-    		<div id="media"><ul>
-		<li><a href="https://www.thebluealliance.com/team/2035" target="_blank" title="The Blue Alliance"><img src="redbluealliance.png"></a></li>
-		<li><a href="https://twitter.com/roborockinbots" target="_blank" title="Twitter"><img src="redtwitter.png"></a></li>
-		<li><a href="http://www.instagram.com/the.rockin.bots" target="_blank" title="Instagram"><img src="redIG2.png"></a></li>
-		<li><a href="https://www.github.com/CarmelRobotics" target="_blank" title="GitHub"><img src="redIG3.png"></a></li>
+
+	<div id="p1image">
+		<img src="https://cloud.githubusercontent.com/assets/6074292/13198238/cbe82efa-d7b8-11e5-9b45-e105d51e1f84.png" width=>
+	</div>
+	<br><br>
+	<font color = "white">
+	
+	<table class="center">
+		
+		<tr>
+			<td style="width:25%">About Us</td>
+			<td style="width:25%">Hours</td>
+			<td style="width:25%">Tutorials</td>
+			<td style="width:25%">Photos</td>
+		</tr>
+		
+	</table>
+ 
+	</font>
+	<div id="media">
+		<ul>
+			<li><a href="https://www.thebluealliance.com/team/2035" target="_blank" title="The Blue Alliance"><img src="redbluealliance.png"></a></li>
+			<li><a href="https://twitter.com/roborockinbots" target="_blank" title="Twitter"><img src="redtwitter.png"></a></li>
+			<li><a href="http://www.instagram.com/the.rockin.bots" target="_blank" title="Instagram"><img src="redIG2.png"></a></li>
+			<li><a href="https://www.github.com/CarmelRobotics" target="_blank" title="GitHub"><img src="redIG3.png"></a></li>
 		</ul>
 	</div>
-</div>
-<div id="scrollDown"><a href="#page2">
-    <div class ="text">SCROLL DOWN</div>
-	<img src="background1.png" class="image"/></a>
+	<div id="scrollDown"><a href="#page2">
+		<div class ="text">SCROLL DOWN</div>
+		<img src="background1.png" /></a>
     </div>
 </div>
+
+<------------------------------- from here up ------------------------------------------------->
  
-<div id="page2">
-  <a id="about" class="smooth"></a>
-	<h1>WE'RE THE ROCKIN' BOTS</h1>
-	<div id="paragraph">
-	<p>We're FIRST Robotics team 2035, the Robo-Rockin' Bots, from Carmel, California! Our team began in 2007, and has been spreading enthusiasm for STEM throughout the Monterey Peninsula ever since. We participate in FIRST Robotics Competitions on the state and national level, and our mission is to design innovative robots and promote STEM throughtout our community and others.</p>
-	</div>
-	<div id="image1">
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/jZbdyyfsECs" frameborder="0" allowfullscreen></iframe>
-	<br><br><br><br><br><br></br>
-	</div>
-	
-</div>
-
-    <div data-include="footer"></div>
-
 </body>
 </html>
