@@ -6,6 +6,13 @@ body {
 	
 }
 
+a {
+  color: white;
+}
+a:visited {
+  color: yellow;
+}
+
 #home {
 	height: 100%;
 	width: 100%;
