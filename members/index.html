@@ -11,40 +11,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="httpe://code.jquery.com/jquery-3.1.1.js"></script>
 <script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
-<script>
-$('.smooth').on('click', function() {
-    $.smoothScroll({
-        scrollElement: $('body'),
-        scrollTarget: '#' + this.id
-    });
-    
-    return false;
-});
-$(function() {
-  $('a[href*="#"]:not([href="#"])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
-  });
-});
-</script>
-	
-<script>
-  $(function(){
-    var includes = $('[data-include]');
-    jQuery.each(includes, function(){
-      var file = '../views/' + $(this).data('include') + '.html';
-      $(this).load(file);
-    });
-  });
-</script>
+
 
 
 </head>
@@ -61,24 +28,18 @@ $(function() {
 
 	<div id="main">
 		
-	<p>Info for 2035 is below</p>
+	<p>Infomation for Robo Rockin' Bots team members below.</p>
     
 	<p>
 	LINKS:
 	<br>
-	<a href="../DESTINATION_ DEEP SPACE.pdf">2019 Game Manual Attached Here</a>
+	<a href="">2022 Game Manual Will Be Attached Here</a>
 	<br>
 	<a href="http://thebluealliance.com/team/2035" target="_blank" title="">The Blue Alliance</a>
 	<br>
-	<a href="https://docs.google.com/forms/d/e/1FAIpQLSf_UkpuN-wRc7nqL76xzTIgjMMGD7kipOVK6NbcPLT4X0LV9Q/viewform?usp=sf_link" target="_blank" title="">Pre-Season Hour Log</a>
-	<br>
-	<a href="https://slack.com" target="_blank" title="">Robotics Team Slack</a>
-	<br>
 	<a href="https://tinyurl.com/2035foodsignups/" target="_blank" title="">Food Sign up</a>
 	<br>
-	<a href="https://docs.google.com/forms/d/1RzlfGChBbeB07upH6SopW4qt5IECcZSCBre08cAhfnU/edit" title="">Part Order Form 2019</a>
-	<br>
-	<a href="https://docs.google.com/spreadsheets/d/1HKFgPmSYEFVd-6sdDU3w0TQjdXpwG7XmVmvv6dK5O-E/edit?usp=sharing" target="_blank" title="">Team Task List (as viewed below)</a>
+	<a href="https://docs.google.com/forms/d/1RzlfGChBbeB07upH6SopW4qt5IECcZSCBre08cAhfnU/edit" title="">Part Order Form 2022</a>
 	</p>
 	<p>
 	<div id="iframe-container">
